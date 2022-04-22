@@ -1,0 +1,142 @@
+
+/* === Gobal CSS === */
+section{
+	padding-top:100px;
+	padding-bottom:50px;
+	
+}
+.bg-transparent-black{
+	background-color:#00000052!important;
+}
+.btn-white{
+	background-color:white;
+}
+.btn-gray{
+	background-color:#00000094;
+}
+
+/* === Theme CSS === */
+
+h6{
+	color:#7979bd;
+}
+p{
+	color:#383131;
+	line-height:1.8;
+}
+.row h6{
+	color:#676666;	
+}
+/* === menu part === */
+header img{
+	float:left;
+	width:75px;
+	display:block;
+}
+#mainMenu .active{
+	background-color:black;
+}
+/* === Home part === */
+#home{
+	 background-image:url('../images/sky.jpg');
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 padding-bottom:0;
+}
+
+.content{
+	 margin-left:10px;
+	 margin-right:10px;	
+}
+/* === Service part === */
+#service{
+	background-image:url('../images/service.png');
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 background-attachment:fixed;
+}
+#service p{
+	color:white;
+}
+#service .card{
+	background-color:#5d424299;
+	color:white;
+}
+#service .card:hover{
+	background-color:#44769a;
+}
+/* === Porfolio part === */
+#portfolio .card-img-overlay{
+	top:auto;
+	display:none;	
+}
+#portfolio .card:hover .card-img-overlay{
+	display:block;	
+}
+ #portfolio img{
+	height: 250px;
+    width: 100%;
+}
+/* === Review part === */ 
+#review{
+	 background-image:url('../images/review.jpg');
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 color:white;
+}
+/* === Contact part === */
+#contact{
+	 background-image:url('../images/background.jpg');
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 background-attachment:fixed; 
+}
+#contact textarea{
+	height:145px;
+}
+/* === Footer part === */
+#social a{
+	width:50px;
+	height:50px;
+}
+#upper{
+	width:50px;
+	left:auto;
+	right:10px;
+	bottom:10px;
+}
+/* === semi responsive === */
+@media(max-width:1100px){
+	.container{
+		width:100%;
+	}
+}
+@media(max-width:576px){
+	.navbar-brand img{
+		height:60px;
+		width:60px;
+	}
+	.navbar-brand h2{
+		font-size:1.90rem;
+	}
+	/* --
+	#home img{
+			height:228px;
+		}
+	#home h6{
+			font-size:.60rem;
+		}
+	#home h5{
+			font-size:.75rem;
+		}
+	#home h2{
+			font-size:.9rem;
+			margin-bottom:10px;
+	} 
+	-- */
+}	
+
+
+
+
+ 
